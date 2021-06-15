@@ -1,0 +1,40 @@
+@import "src/styles/variables.scss";
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+  width: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  background-color: "white";
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: $default-text-color;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-shadow: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

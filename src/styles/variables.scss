@@ -1,0 +1,32 @@
+// COLORS
+$rq-red: #ff5858;
+$rq-yellow: #f4f1d0;
+$rq-gray: #cacaca;
+$rq-white: #fff6f6;
+$default-text-color: #656565;
+
+// VARIABLES
+$max-view-width: 1200px;
+
+//MIXINS
+@mixin flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}

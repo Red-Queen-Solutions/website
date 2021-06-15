@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "static/RedQueenIcon.svg";
-import "src/components/Header/Header.scss";
+import "./Header.scss";
 
 export const Header = () => {
   return (
-    <div className="">
+    <div className="main-header">
       <img src={Logo} />
     </div>
   );

@@ -1,11 +1,6 @@
 import React from "react";
-import { Header } from "src/components/Header";
+import { MainView } from "src/components/MainView";
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <h1>Hello Gatsby!</h1>
-    </>
-  );
+  return <MainView>Hello Gatsby!</MainView>;
 }

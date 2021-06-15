@@ -1,0 +1,9 @@
+@import "src/styles/variables.scss";
+
+.main-container {
+  @include flex-column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: $max-view-width;
+}

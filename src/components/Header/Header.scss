@@ -1,3 +1,6 @@
-.Header {
+@import "src/styles/variables.scss";
+
+.main-header {
+  @include flex-row;
   padding: 20px 40px;
 }
