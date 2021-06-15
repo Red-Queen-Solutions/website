@@ -3,4 +3,7 @@
 .main-header {
   @include flex-row;
   padding: 20px 40px;
+  .rq-logo {
+    cursor: pointer;
+  }
 }
