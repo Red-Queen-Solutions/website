@@ -19,7 +19,8 @@
     "noUnusedParameters": true,
     "experimentalDecorators": true,
     "noFallthroughCasesInSwitch": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": "."
   },
   "include": ["src", "declaration.d.ts"],
   "exclude": ["node_modules", "build"]
