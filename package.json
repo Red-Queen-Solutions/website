@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Red-Queen-Solutions/website#readme",
   "dependencies": {
+    "@fontsource/mulish": "^4.5.1",
     "@fontsource/poppins": "^4.4.5",
     "gatsby": "^3.7.1",
     "gatsby-plugin-sass": "^3.2.0",

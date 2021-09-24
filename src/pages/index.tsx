@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
         <div className="right-side">
-          <img src={LandingScreenImage}></img>
+          <img className="landing-screen-image" src={LandingScreenImage}></img>
         </div>
       </div>
       <div className="red-stripe" />

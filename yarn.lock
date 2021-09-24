@@ -1068,6 +1068,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/mulish@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/mulish/-/mulish-4.5.1.tgz#75be2efb8d20e602d4b8b416422ca782bff48c09"
+  integrity sha512-0CcAyvf1y0E74jAWLRjBEMw5ud3AKJFTfrFFsJn4E1OJZ3eLzKmb7MKM3GilhFvqTA00uz/22ZPxp1Z1J3f9sw==
+
 "@fontsource/poppins@^4.4.5":
   version "4.4.5"
   resolved "https://registry.yarnpkg.com/@fontsource/poppins/-/poppins-4.4.5.tgz#c75dcc453f7a9381de3f9b932366c2457887184c"
@@ -4531,11 +4536,6 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.1.tgz"
   integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
-
-fontsource-poppins@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/fontsource-poppins/-/fontsource-poppins-4.0.0.tgz"
-  integrity sha512-zJdpf8kSFd6AS4o7BokG6g14wv9m+qzIbuthC24/UZCYz78AGkqBeje5axD0aFhOHl2ZJbVmhjyhYBQItxTCnA==
 
 for-each@^0.3.3:
   version "0.3.3"

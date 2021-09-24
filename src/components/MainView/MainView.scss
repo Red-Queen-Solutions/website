@@ -1,5 +1,11 @@
 @import "src/styles/variables.scss";
 
+.page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .main-container {
   @include flex-column;
   margin-left: auto;

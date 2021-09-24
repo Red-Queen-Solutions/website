@@ -8,9 +8,9 @@ interface Props {
 
 export const MainView: React.FC<Props> = ({ children }) => {
   return (
-    <>
+    <div className="page-container">
       <Header />
       <div className="main-container">{children}</div>
-    </>
+    </div>
   );
 };
