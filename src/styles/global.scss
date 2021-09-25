@@ -10,6 +10,8 @@ body,
   -webkit-user-select: none;
   user-select: none;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 #gatsby-focus-wrapper {
   display: flex;
@@ -24,10 +26,10 @@ html {
 body {
   margin: 0;
   background-color: "white";
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-family: "Mulish", sans-serif;
+  font-size: $font-size-4;
   line-height: 1.75;
-  color: $default-text-color;
+  color: $color-grey-7;
 }
 
 a {
@@ -41,8 +43,17 @@ a {
 }
 
 h1 {
-  font-family: Mulish SemiBold;
   font-size: $font-size-9;
   color: $color-grey-9;
-  font-weight: 100;
+  font-weight: $font-weight-semibold;
+  line-height: 1;
+}
+
+p {
+  font-size: $font-size-4;
+  font-weight: $font-weight-light;
+  color: $color-grey-7;
+  line-height: 1.85;
+  max-width: 48ch;
+  margin: 0;
 }

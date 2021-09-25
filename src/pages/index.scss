@@ -4,24 +4,24 @@
   @include flex-row;
   .left-side {
     @include flex-column;
-    justify-content: center;
     flex: 1;
+    h1 {
+      max-width: 60%;
+    }
   }
   .right-side {
-    // @include flex-centered;
-    // flex: 1;
-    max-width: 500px;
-    max-height: 400px;
+    flex: 1;
+    @include flex-centered;
   }
   .landing-screen-image {
-    max-width: 500px;
-    // height: 200px;
+    max-width: 80%;
+    margin-top: 20px;
   }
 }
 
 .red-stripe {
   position: absolute;
-  bottom: -50%;
+  bottom: -70%;
   left: -50%;
   background-color: $rq-red;
   height: 800px;

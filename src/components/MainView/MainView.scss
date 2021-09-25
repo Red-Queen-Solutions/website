@@ -2,7 +2,7 @@
 
 .page-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -10,6 +10,7 @@
   @include flex-column;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
-  max-width: $max-view-width;
+  width: auto;
+  max-width: 1300px;
+  padding: 0 20px;
 }

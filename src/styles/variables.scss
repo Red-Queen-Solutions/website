@@ -43,14 +43,15 @@ $color-grey-3: #d5dde5;
 $color-grey-4: #ccd4db;
 $color-grey-5: #aebecc;
 $color-grey-6: #929fb1;
-$color-grey-7: #7d7e7f;
+$color-grey-7: #666666;
 $color-grey-8: #50504f;
 $color-grey-9: #363d45;
 
-$font-light: "Mulish Light";
-$font-regular: "Mulish Regular";
-$font-semibold: "Mulish SemiBold";
-$font-bold: "Mulish Bold";
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
 
 //MIXINS
 @mixin flex-centered {
