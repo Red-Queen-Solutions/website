@@ -1,0 +1,20 @@
+@import "src/styles/variables.scss";
+
+.qoute-section {
+  height: 100vh;
+  background-color: aqua;
+  @include flex-row;
+
+  .left-side {
+    @include flex-column;
+    flex: 1;
+    h2 {
+      color: white;
+      z-index: 10;
+    }
+  }
+  .right-side {
+    flex: 1;
+    @include flex-column;
+  }
+}

@@ -49,10 +49,17 @@ h1 {
   line-height: 1;
 }
 
+h2 {
+  font-size: $font-size-7;
+  color: $color-grey-9;
+  font-weight: $font-weight-bold;
+  line-height: 1.17;
+}
+
 p {
   font-size: $font-size-4;
   font-weight: $font-weight-light;
-  color: $color-grey-7;
+  color: $color-grey-6;
   line-height: 1.85;
   max-width: 48ch;
   margin: 0;

@@ -19,6 +19,7 @@ $font-size-7: 30px;
 $font-size-8: 36px;
 $font-size-9: 48px;
 $font-size-10: 60px;
+$font-size-11: 72px;
 
 // COLORS, low number means lighter
 $color-primary-1: #ffe8e8;
@@ -37,21 +38,24 @@ $color-secondary-3: #ffcca4;
 $color-secondary-4: #febd85;
 $color-secondary-5: #ff876e;
 
-$color-grey-1: #f8f9fa;
-$color-grey-2: #e1e7ec;
-$color-grey-3: #d5dde5;
-$color-grey-4: #ccd4db;
-$color-grey-5: #aebecc;
-$color-grey-6: #929fb1;
-$color-grey-7: #666666;
-$color-grey-8: #50504f;
-$color-grey-9: #363d45;
+$color-grey-1: #faf9f7;
+$color-grey-2: #e8e6e1;
+$color-grey-3: #d3cec4;
+$color-grey-4: #b8b2a7;
+$color-grey-5: #a39e93;
+$color-grey-6: #857f72;
+$color-grey-7: #625d52;
+$color-grey-8: #504a40;
+$color-grey-9: #423d33;
+$color-grey-10: #27241d;
 
 $font-weight-light: 200;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
+
+$spacing-1: 2px;
 
 //MIXINS
 @mixin flex-centered {
