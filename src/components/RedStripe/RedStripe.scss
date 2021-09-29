@@ -1,0 +1,11 @@
+@import "src/styles/variables.scss";
+
+.red-stripe {
+  position: absolute;
+  bottom: -80%;
+  left: -50%;
+  background-color: $rq-red;
+  height: 800px;
+  width: 200%;
+  transform: rotate(-8deg);
+}
