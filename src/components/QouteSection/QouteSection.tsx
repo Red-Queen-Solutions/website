@@ -18,7 +18,16 @@ export const QouteSection = () => {
           that really grow alongside their user base.
         </p>
       </div>
-      <div className="right-side"></div>
+      <div className="right-side">
+        <div>
+          <p>
+            "Red Queen Solutions gjorde ett fantastiskt jobb. Tack vare dem
+            jobbar vi nu mycket mer effektivt. Deckmaster är den bästa
+            applikation som någonsin byggts!"
+          </p>
+          <p>- Kockumation</p>
+        </div>
+      </div>
     </div>
   );
 };
