@@ -4,9 +4,15 @@
   @include flex-row;
   .left-side {
     @include flex-column;
+    max-width: 520px;
+    p {
+      width: 520px;
+      max-width: 520px;
+      margin-bottom: $spacing-6;
+    }
     flex: 1;
     h1 {
-      max-width: 60%;
+      max-width: 70%;
     }
   }
   .right-side {

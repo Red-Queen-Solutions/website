@@ -1,7 +1,8 @@
 @import "src/styles/variables.scss";
 
 .applications-section {
-  height: 700px;
+  margin-top: $spacing-7;
+  margin-bottom: $spacing-11;
   .applications-section-list {
     display: flex;
     justify-content: space-between;

@@ -3,6 +3,6 @@
 .content-container {
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  width: $max-content-width;
   max-width: $max-content-width;
 }

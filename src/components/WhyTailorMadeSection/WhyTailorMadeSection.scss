@@ -2,12 +2,11 @@
 
 .why-tailor-made-section {
   @include flex-row;
+  // margin-top: $spacing-7;
+  // margin-bottom: $spacing-7;
   .wtm-leftside {
     @include flex-column;
     flex: 1;
-    h1 {
-      max-width: 60%;
-    }
   }
   .wtm-rightside {
     flex: 1;
@@ -16,7 +15,7 @@
     align-items: flex-start;
     .wtms-image {
       max-width: 70%;
-      margin-top: 20px;
+      // margin-top: 20px;
     }
   }
 }

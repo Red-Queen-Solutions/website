@@ -45,12 +45,12 @@ svg {
 }
 
 a {
-  color: $color-blue-2;
+  // color: $color-blue-2;
   text-decoration: none;
   text-shadow: none;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -80,15 +80,16 @@ h1 {
 
 h2 {
   font-size: $font-size-7;
-  color: $color-grey-9;
+  color: #2d1e1e;
   font-weight: $font-weight-bold;
   line-height: 1.17;
+  max-width: 20ch;
 }
 
 h3 {
   font-size: $font-size-4;
   font-weight: $font-weight-bold;
-  color: $color-secondary-5;
+  color: $color-blue-2;
 }
 
 p {

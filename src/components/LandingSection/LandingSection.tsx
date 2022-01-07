@@ -2,8 +2,8 @@ import React from "react";
 import "./LandingSection.scss";
 import LandingScreenImage from "static/LandingScreenImage.png";
 import ContentContainer from "../ContentContainer/ContentContainer";
-import { Link } from "gatsby";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
+import ButtonLink from "../ButtonLink/ButtonLink";
 
 export const LandingSection = () => {
   return (
@@ -20,7 +20,7 @@ export const LandingSection = () => {
             att ert företags behov uppfylls både nu och i framtiden.
           </p>
           <FlexContainer justifyContent="flex-end">
-            <Link to="/contact">Kontakta oss för att komma igång</Link>
+            <ButtonLink to="/contact" text="Kontakta oss" />
           </FlexContainer>
         </div>
         <div className="right-side">
