@@ -45,12 +45,12 @@ svg {
 }
 
 a {
-  color: inherit;
+  color: $color-blue-2;
   text-decoration: none;
   text-shadow: none;
 
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
