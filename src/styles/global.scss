@@ -21,6 +21,7 @@ body,
 html {
   overflow-y: auto;
   overflow-x: hidden;
+  height: 100%;
 }
 
 body {
@@ -30,6 +31,17 @@ body {
   font-size: $font-size-4;
   line-height: 1.75;
   color: $color-grey-7;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
 a {
@@ -40,6 +52,23 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
 h1 {
@@ -66,7 +95,7 @@ p {
   font-size: $font-size-4;
   font-weight: $font-weight-light;
   color: $color-grey-6;
-  line-height: 1.85;
+  line-height: 1.65;
   max-width: 48ch;
   margin: 0;
 }

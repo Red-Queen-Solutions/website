@@ -1,6 +1,9 @@
 @import "src/styles/variables.scss";
 .main-header {
   @include flex-row;
+  max-width: $max-header-width;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px 0px;
   .rq-logo {
     cursor: pointer;

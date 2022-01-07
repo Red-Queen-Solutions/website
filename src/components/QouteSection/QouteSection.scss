@@ -2,8 +2,6 @@
 
 .qoute-section {
   height: 100vh;
-  // Color just for clarity during dev
-  background-color: aqua;
   @include flex-row;
 
   .left-side {
