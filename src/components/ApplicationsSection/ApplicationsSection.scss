@@ -1,39 +1,9 @@
 @import "src/styles/variables.scss";
 
-.qoute-section {
-  height: 100vh;
-  // Color just for clarity during dev
-  background-color: aqua;
-  @include flex-row;
-
-  .left-side {
-    @include flex-column;
-    flex: 1;
-    z-index: 10;
-    h2 {
-      margin-top: $spacing-10;
-      color: white;
-    }
-    p {
-      color: white;
-    }
-  }
-  .right-side {
-    flex: 1;
-    @include flex-column;
-    align-items: center;
-    z-index: 10;
-    margin-top: 200px;
-
-    p {
-      font-family: Georgia;
-      font-style: italic;
-      font-size: $font-size-6;
-      line-height: 1.75;
-      color: white;
-      border-left: 1px solid white;
-      padding-left: $spacing-5;
-      max-width: 500px;
-    }
+.applications-section {
+  height: 700px;
+  .applications-section-list {
+    display: flex;
+    justify-content: space-between;
   }
 }
