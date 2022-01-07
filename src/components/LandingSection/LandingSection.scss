@@ -1,8 +1,6 @@
 @import "src/styles/variables.scss";
 
 .landing-section {
-  height: calc(100vh - 112px);
-
   @include flex-row;
   .left-side {
     @include flex-column;

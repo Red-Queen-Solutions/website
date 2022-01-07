@@ -1,15 +1,18 @@
 @import "src/styles/variables.scss";
 
-.qoute-section {
-  height: 100vh;
+.qoute-section-container {
   @include flex-row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: 100px 0;
 
   .left-side {
     @include flex-column;
     flex: 1;
     z-index: 10;
     h2 {
-      margin-top: $spacing-10;
       color: white;
     }
     p {
@@ -21,7 +24,6 @@
     @include flex-column;
     align-items: center;
     z-index: 10;
-    margin-top: 200px;
 
     p {
       font-family: Georgia;

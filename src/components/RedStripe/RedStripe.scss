@@ -2,10 +2,8 @@
 
 .red-stripe {
   position: absolute;
-  bottom: -75%;
-  left: -50%;
   background-color: $color-primary-5;
-  height: 800px;
-  width: 200%;
-  transform: rotate(-8deg);
+  height: 600px;
+  width: 100vw;
+  transform: skewY(-6deg);
 }
