@@ -11,22 +11,23 @@ export const WhyTailorMadeSection = () => {
       <h2>Skräddarsytt system har många fördelar</h2>
       <div className="why-tailor-made-section">
         <div className="wtm-leftside">
-          <p>
+          <p className="wtm-leftside-ingress">
             Att köpa ett skräddarsytt system har flera stora fördelar jämfört
             med en färdig standardlösning.
           </p>
           <Reason
             header="Ökad produktivitet"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum mauris neque, eget mollis neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
+            text="Lorem ipsum dolor sit amet, coneget mollis neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
           />
           <Reason
             header="Ni sparar pengar"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum mauris neque, eget mollis neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
+            text="Lorem ipsum mentum mauris neque, eget mollis neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
           />
           <Reason
             header="Skalbart och dynamiskt"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum mauris neque, eget mollis neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
+            text="Lorem ipsum dolor sit amet, consectetur adium mauris neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
           />
+          <p className="wtm-leftside-ingress">Läs mer här.</p>
         </div>
         <div className="wtm-rightside">
           <img className="wtms-image" src={Image}></img>

@@ -9,6 +9,7 @@ export const QouteSection = () => {
       <div className="qoute-section-container">
         <RedStripe />
         <div className="left-side">
+          <h3>Rubrik</h3>
           <h2>Mer detaljer om oss</h2>
           <p>
             Vi har kapacitet att leverera ert system på så lite som 4-6 veckor,

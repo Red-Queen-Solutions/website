@@ -4,10 +4,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: $spacing-10;
-  margin-bottom: $spacing-5;
+  padding: $spacing-5 0;
+  background-color: $color-primary-5;
   .footer-row {
-    color: #6e7a89;
+    color: white;
+
     font-size: $font-size-1;
   }
 }

@@ -2,11 +2,12 @@
 
 .reason {
   display: flex;
+  margin-bottom: $spacing-6;
   .reason-left {
     .reason-checkmark {
       height: 23px;
       width: auto;
-      margin-right: $spacing-2;
+      margin-right: $spacing-3;
     }
   }
   .reason-right {

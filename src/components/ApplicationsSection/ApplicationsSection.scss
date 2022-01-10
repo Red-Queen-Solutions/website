@@ -1,10 +1,14 @@
 @import "src/styles/variables.scss";
 
-.applications-section {
-  margin-top: $spacing-7;
-  margin-bottom: $spacing-11;
-  .applications-section-list {
-    display: flex;
-    justify-content: space-between;
+.applications-section-wrapper {
+  width: 100vw;
+  background-color: #fffcfa;
+
+  .applications-section {
+    margin-top: $spacing-7;
+    .applications-section-list {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }

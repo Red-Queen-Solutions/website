@@ -11,10 +11,9 @@ export default function Home() {
   return (
     <MainView>
       <LandingSection />
-
-      <ApplicationsSection />
-      <WhyTailorMadeSection />
       <QouteSection />
+      <WhyTailorMadeSection />
+      <ApplicationsSection />
       <Footer />
     </MainView>
   );

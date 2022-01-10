@@ -3,7 +3,7 @@
 .red-stripe {
   position: absolute;
   background-color: $color-primary-5;
-  height: 600px;
+  height: $qoute-section-height;
   width: 100vw;
   transform: skewY(-6deg);
 }

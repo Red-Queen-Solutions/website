@@ -7,10 +7,10 @@ import ButtonLink from "../ButtonLink/ButtonLink";
 
 export const LandingSection = () => {
   return (
-    <ContentContainer>
+    <ContentContainer className="landing-section-wrapper">
+      <h1 className="landing-section-header">Skräddarsydda IT-system</h1>
       <div className="landing-section">
         <div className="left-side">
-          <h1>Skräddarsydda IT-system</h1>
           <p>
             Red Queen Solutions bygger interna applikationer åt företag som inte
             nöjer sig med standardlösningar. Oavsett om du vill ersätta ett

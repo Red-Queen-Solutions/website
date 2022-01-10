@@ -5,16 +5,15 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: $qoute-section-height;
   margin: 100px 0;
 
   .left-side {
     @include flex-column;
     flex: 1;
     z-index: 10;
-    h2 {
-      color: white;
-    }
+    h2,
+    h3,
     p {
       color: white;
     }
