@@ -10,13 +10,15 @@
   @include flex-row;
   .left-side {
     @include flex-column;
-    max-width: 520px;
-    p {
-      width: 520px;
-      max-width: 520px;
-      margin-bottom: $spacing-6;
-    }
     flex: 1;
+    .left-side-content {
+      align-items: flex-end;
+      max-width: $spacing-14;
+      width: $spacing-14;
+      p {
+        margin-bottom: $spacing-6;
+      }
+    }
   }
   .right-side {
     flex: 1;

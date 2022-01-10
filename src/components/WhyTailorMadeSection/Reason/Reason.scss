@@ -5,15 +5,19 @@
   margin-bottom: $spacing-6;
   .reason-left {
     .reason-checkmark {
-      height: 23px;
+      height: $font-size-5;
       width: auto;
-      margin-right: $spacing-3;
+      margin-right: $spacing-2;
+      transform: translate(0px, 3px);
     }
   }
   .reason-right {
     flex: 1;
     h4 {
       margin: 0;
+    }
+    p {
+      max-width: 40ch;
     }
   }
 }

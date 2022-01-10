@@ -7,9 +7,11 @@
     line-height: 25px;
   }
 
-  h3 {
-    color: #432929;
-    margin-bottom: 4px;
-    margin-top: 0px;
+  h4 {
+    margin: $spacing-3 0;
+  }
+
+  .card-icon {
+    height: $spacing-7;
   }
 }

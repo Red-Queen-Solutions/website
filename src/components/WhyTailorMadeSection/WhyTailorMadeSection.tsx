@@ -7,8 +7,8 @@ import ContentContainer from "../ContentContainer/ContentContainer";
 export const WhyTailorMadeSection = () => {
   return (
     <ContentContainer>
-      <h3>Maximera din verksamhet</h3>
-      <h2>Skräddarsytt system har många fördelar</h2>
+      <h3>Rubrik</h3>
+      <h2>Huvudrubrik</h2>
       <div className="why-tailor-made-section">
         <div className="wtm-leftside">
           <p className="wtm-leftside-ingress">
@@ -27,7 +27,7 @@ export const WhyTailorMadeSection = () => {
             header="Skalbart och dynamiskt"
             text="Lorem ipsum dolor sit amet, consectetur adium mauris neque blandit posuere. Nulla interdum placerat nulla sed porttitor."
           />
-          <p className="wtm-leftside-ingress">Läs mer här.</p>
+          {/* <p className="wtm-leftside-ingress">Läs mer här.</p> */}
         </div>
         <div className="wtm-rightside">
           <img className="wtms-image" src={Image}></img>

@@ -5,13 +5,22 @@ interface Props {
   icon: string;
   header: string;
   text: string;
+  imageClassName?: string;
 }
 
-export const Card: React.FC<Props> = ({ icon, header, text }) => {
+export const Card: React.FC<Props> = ({
+  icon,
+  header,
+  text,
+  imageClassName,
+}) => {
   return (
     <div className="card">
-      <img src={icon} className="card-icon" />
-      <h3>{header}</h3>
+      <img
+        src={icon}
+        className={`card-icon${!imageClassName ? "" : ` ${imageClassName}`}`}
+      />
+      <h4>{header}</h4>
       <p>{text}</p>
     </div>
   );

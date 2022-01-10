@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   height: $qoute-section-height;
-  margin: 100px 0;
+  margin: $spacing-7 0 $spacing-7 0;
 
   .left-side {
     @include flex-column;
@@ -23,6 +23,7 @@
     @include flex-column;
     align-items: center;
     z-index: 10;
+    transform: translate(0px, 40px);
 
     p {
       font-family: Georgia;

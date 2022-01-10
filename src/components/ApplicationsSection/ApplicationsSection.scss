@@ -2,13 +2,15 @@
 
 .applications-section-wrapper {
   width: 100vw;
-  background-color: #fffcfa;
-
+  background-color: $color-secondary-1;
   .applications-section {
     margin-top: $spacing-7;
     .applications-section-list {
       display: flex;
       justify-content: space-between;
     }
+  }
+  .speed-icon {
+    transform: translate(-5px, -1px);
   }
 }

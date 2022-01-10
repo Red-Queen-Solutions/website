@@ -10,7 +10,7 @@ export const QouteSection = () => {
         <RedStripe />
         <div className="left-side">
           <h3>Rubrik</h3>
-          <h2>Mer detaljer om oss</h2>
+          <h2>Huvudrubrik</h2>
           <p>
             Vi har kapacitet att leverera ert system på så lite som 4-6 veckor,
             med hjälp av modern teknologi We are able to deliver your digital
@@ -30,7 +30,7 @@ export const QouteSection = () => {
               jobbar vi nu mycket mer effektivt. Deckmaster är den bästa
               applikation som någonsin byggts!"
             </p>
-            <p>- Kockumation</p>
+            <p>- Company Inc</p>
           </div>
         </div>
       </div>

@@ -74,7 +74,7 @@ h6 {
 h1 {
   font-size: $font-size-9;
   color: $color-grey-9;
-  font-weight: $font-weight-semibold;
+  font-weight: $font-weight-bold;
   line-height: 1;
 }
 
@@ -84,12 +84,18 @@ h2 {
   font-weight: $font-weight-bold;
   line-height: 1.17;
   max-width: 20ch;
+  margin: $spacing-5 0;
 }
 
 h3 {
   font-size: $font-size-4;
   font-weight: $font-weight-bold;
   color: $color-blue-2;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: $color-grey-10;
 }
 
 p {
