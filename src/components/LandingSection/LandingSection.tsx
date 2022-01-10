@@ -1,6 +1,6 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import "./LandingSection.scss";
-import LandingScreenImage from "static/LandingScreenImage.png";
 import ContentContainer from "../ContentContainer/ContentContainer";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
 import ButtonLink from "../ButtonLink/ButtonLink";
@@ -27,7 +27,12 @@ export const LandingSection = () => {
           </div>
         </div>
         <div className="right-side">
-          <img className="landing-screen-image" src={LandingScreenImage}></img>
+          <StaticImage
+            className="landing-screen-image"
+            src="LandingScreenImage.png"
+            alt="hero"
+            placeholder="blurred"
+          />
         </div>
       </div>
     </ContentContainer>
