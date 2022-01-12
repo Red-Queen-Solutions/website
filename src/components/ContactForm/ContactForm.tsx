@@ -4,6 +4,7 @@ import ContentContainer from "../ContentContainer/ContentContainer";
 import "./ContactForm.scss";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
 import Button from "../Button/Button";
+import RedStripeClipped from "../RedStripeClipped/RedStripeClipped";
 
 const ContactForm: FunctionComponent = () => {
   const [state, handleSubmit] = useForm("xzbozlqd");
@@ -11,13 +12,6 @@ const ContactForm: FunctionComponent = () => {
   const [isCompanyFocused, setIsCompanyFocused] = useState(false);
   const [isEmailFocused, setIsEmailFocused] = useState(false);
   const [isMessageFocused, setIsMessageFocused] = useState(false);
-
-  console.log({
-    isNameFocused,
-    isCompanyFocused,
-    isEmailFocused,
-    isMessageFocused,
-  });
 
   if (state.succeeded) {
     return (
@@ -29,6 +23,7 @@ const ContactForm: FunctionComponent = () => {
   return (
     <ContentContainer className="contact-form-wrapper">
       <h2>Kontakta oss</h2>
+      <RedStripeClipped />
 
       <p>
         Vi svarar gärna på dina frågor. Fyll i dina uppgifter så hör vi av oss

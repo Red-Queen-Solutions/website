@@ -1,0 +1,23 @@
+@import "src/styles/variables.scss";
+
+.red-stripe-clipped {
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    160deg,
+    hsl(0deg 100% 67%) 0%,
+    hsl(2deg 100% 68%) 11%,
+    hsl(3deg 100% 68%) 22%,
+    hsl(4deg 100% 68%) 33%,
+    hsl(5deg 100% 69%) 44%,
+    hsl(6deg 100% 69%) 56%,
+    hsl(8deg 100% 70%) 67%,
+    hsl(9deg 100% 70%) 78%,
+    hsl(9deg 100% 71%) 89%,
+    hsl(10deg 100% 72%) 100%
+  );
+  height: $qoute-section-height;
+  width: 100vw;
+  clip-path: polygon(0 55%, 100% 13%, 100% 100%, 0% 100%);
+  z-index: -10;
+}
