@@ -26,7 +26,7 @@ export const FlexContainer: React.FC<Props> = ({
   justifyContent,
   alignItems,
   onClick,
-  margin,
+  margin = "",
   className = "",
   cursor = "auto",
   grow = false,

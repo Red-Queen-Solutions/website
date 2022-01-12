@@ -1,0 +1,55 @@
+@import "src/styles/variables.scss";
+
+.contact-form-wrapper {
+  @include flex-column;
+  align-items: center;
+
+  h2 {
+    margin: 0;
+  }
+  p {
+    font-weight: $font-weight-light;
+    margin: $spacing-5 0;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: $spacing-14;
+    padding: $spacing-6;
+    --shadow-color: 0deg 0% 63%;
+    box-shadow: 0.3px 0.5px 0.7px hsl(0deg 0% 63% / 0.34),
+      1.5px 2.9px 3.7px -0.4px hsl(0deg 0% 63% / 0.34),
+      2.7px 5.4px 6.8px -0.7px hsl(0deg 0% 63% / 0.34),
+      4.5px 8.9px 11.2px -1.1px hsl(0deg 0% 63% / 0.34),
+      7.1px 14.3px 18px -1.4px hsl(0deg 0% 63% / 0.34),
+      11.2px 22.3px 28.1px -1.8px hsl(0deg 0% 63% / 0.34),
+      17px 33.9px 42.7px -2.1px hsl(0deg 0% 63% / 0.34),
+      25px 50px 62.9px -2.5px hsl(0deg 0% 63% / 0.34);
+    div {
+      margin-bottom: $spacing-5;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    input,
+    textarea {
+      width: 300px;
+    }
+
+    .contact-form-label-focused {
+      color: $color-blue-3;
+    }
+
+    .required:after {
+      content: "*";
+      color: $color-grey-10;
+    }
+
+    .required-focused:after {
+      content: "*";
+      color: $color-blue-3;
+    }
+  }
+}

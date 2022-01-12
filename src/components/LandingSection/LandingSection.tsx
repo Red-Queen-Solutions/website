@@ -22,7 +22,7 @@ export const LandingSection = () => {
               framtiden.
             </p>
             <FlexContainer justifyContent="flex-end">
-              <ButtonLink to="/contact" text="Kontakta oss" />
+              <ButtonLink to="/kontakt" text="KONTAKTA OSS" />
             </FlexContainer>
           </div>
         </div>
