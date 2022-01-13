@@ -1,0 +1,17 @@
+@import "src/styles/variables.scss";
+.success-screen-header {
+  color: $color-blue-3;
+  margin: $spacing-4 0 $spacing-3 0;
+  letter-spacing: 1px;
+}
+
+.success-screen-p {
+  margin: 0;
+  text-align: center;
+  color: $color-grey-6;
+  margin-bottom: $spacing-7;
+}
+
+.success-screen-checkmark {
+  margin-top: $spacing-9;
+}
