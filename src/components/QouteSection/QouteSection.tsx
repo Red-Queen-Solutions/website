@@ -26,9 +26,8 @@ export const QouteSection = () => {
         <div className="right-side">
           <div>
             <p>
-              "Red Queen Solutions gjorde ett fantastiskt jobb. Tack vare dem
-              jobbar vi nu mycket mer effektivt. Deckmaster är den bästa
-              applikation som någonsin byggts!"
+              "Red Queen Solutions lorem ipsum dolor sit amet, coneget mollis
+              neque blandit posuere. Nulla interdum placerat."
             </p>
             <p>- Company Inc</p>
           </div>
