@@ -128,7 +128,8 @@ textarea:focus {
 }
 
 .button,
-.button-link {
+.button-link,
+.button-disabled {
   font-size: $font-size-3;
   border-radius: $spacing-1;
   padding: $spacing-2 $spacing-5;

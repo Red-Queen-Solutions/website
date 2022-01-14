@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from "react";
-import { Link } from "gatsby";
 import { animated, config, useSpring } from "react-spring";
 import CheckmarkCircle from "static/checkbox_circle.svg";
 import "./SuccessScreen.scss";
@@ -30,7 +29,6 @@ const SuccessScreen: FunctionComponent<SuccessScreenProps> = ({ email }) => {
       />
       <h2 className="success-screen-header">Tack!</h2>
       <p className="success-screen-p">{`Vi återkommer så snart som möjligt till ${email}`}</p>
-      <Link to={"/"}>Till startsidan</Link>
     </>
   );
 };

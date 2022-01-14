@@ -4,11 +4,19 @@ import "./Button.scss";
 interface ButtonProps {
   label: string;
   loading?: boolean;
+  disabled?: boolean;
 }
 
-const Button: FunctionComponent<ButtonProps> = ({ label, loading = false }) => {
+const Button: FunctionComponent<ButtonProps> = ({
+  label,
+  loading = false,
+  disabled = false,
+}) => {
   return (
-    <button disabled={loading} className="button">
+    <button
+      disabled={disabled || loading}
+      className={disabled ? "button-disabled" : "button"}
+    >
       {label}
     </button>
   );
