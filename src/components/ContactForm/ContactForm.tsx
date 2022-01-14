@@ -54,6 +54,9 @@ const ContactForm: FunctionComponent = () => {
                 id="name"
                 type="name"
                 name="name"
+                // className={
+                //   name.trim().length > 0 ? "contact-form-input-checkmark" : ""
+                // }
                 onChange={(e) => setName(e.target.value)}
                 onFocus={() => setIsNameFocused(true)}
                 onBlur={() => setIsNameFocused(false)}
@@ -76,6 +79,9 @@ const ContactForm: FunctionComponent = () => {
                 id="email"
                 type="email"
                 name="email"
+                // className={
+                //   isEmailValid(email) ? "contact-form-input-checkmark" : ""
+                // }
                 onChange={(e) => setEmail(e.target.value)}
                 onFocus={() => setIsEmailFocused(true)}
                 onBlur={() => setIsEmailFocused(false)}
@@ -114,7 +120,6 @@ const ContactForm: FunctionComponent = () => {
                 id="company"
                 type="company"
                 name="company"
-                placeholder="Valfritt"
                 onFocus={() => setIsCompanyFocused(true)}
                 onBlur={() => setIsCompanyFocused(false)}
               />
@@ -125,12 +130,11 @@ const ContactForm: FunctionComponent = () => {
                 htmlFor="message"
                 className={isMessageFocused ? "contact-form-label-focused" : ""}
               >
-                Ev. meddelande
+                Meddelande
               </label>
               <textarea
                 id="message"
                 name="message"
-                placeholder="Valfritt"
                 onFocus={() => setIsMessageFocused(true)}
                 onBlur={() => setIsMessageFocused(false)}
                 rows={3}

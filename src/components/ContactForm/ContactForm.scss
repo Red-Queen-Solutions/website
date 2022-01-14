@@ -62,6 +62,15 @@
       margin-left: $spacing-1;
     }
 
+    .contact-form-input-checkmark {
+      background: url("static/checkmark_blue.svg") no-repeat scroll 330px 14px;
+      background-color: #eef4f8;
+      outline: none;
+      // border-color: $color-blue-3;
+      color: $color-blue-3;
+      // font-size: $font-size-;
+    }
+
     .required:after {
       content: "*";
       margin-left: 2px;

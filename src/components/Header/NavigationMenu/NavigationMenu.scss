@@ -1,0 +1,32 @@
+@import "src/styles/variables.scss";
+
+.navigation-menu {
+  margin: 0 200px 0 0;
+
+  //   .capsdj {
+  //     position: relative;
+  //   }
+
+  .navigation-menu-item {
+    margin-right: $spacing-7;
+    text-decoration: none;
+    color: $color-secondary-5;
+    // color: $color-blue-3;
+    font-weight: $font-weight-semibold;
+    font-size: $font-size-3;
+    letter-spacing: 1px;
+    // position: relative;
+  }
+
+  .navigation-menu-item:hover {
+    opacity: 0.7;
+  }
+
+  //   .navigation-menu-item-underline {
+  //     flex: 1;
+  //     width: 20px;
+  //     height: 2px;
+  //     background-color: blue;
+  //     position: absolute;
+  //   }
+}
