@@ -32,68 +32,63 @@ const ContactForm: FunctionComponent = () => {
       {state.succeeded ? (
         <SuccessScreen email={email} />
       ) : (
-        <>
+        <form className="contact-form" onSubmit={handleSubmit}>
           <h2 className="contact-header">Kontakta oss</h2>
           <p className="contact-p">
             Vi svarar gärna på dina frågor. Fyll i dina uppgifter så hör vi av
             oss inom ett par timmar.
           </p>
-          <form className="contact-form" onSubmit={handleSubmit}>
-            <FlexContainer justifyContent="space-between">
-              <label
-                htmlFor="name"
-                className={
-                  isNameFocused
-                    ? "required-focused contact-form-label-focused "
-                    : "required"
-                }
-              >
-                Namn
-              </label>
-              <input
-                id="name"
-                type="name"
-                name="name"
-                // className={
-                //   name.trim().length > 0 ? "contact-form-input-checkmark" : ""
-                // }
-                onChange={(e) => setName(e.target.value)}
-                onFocus={() => setIsNameFocused(true)}
-                onBlur={() => setIsNameFocused(false)}
-                autoFocus
-              />
-            </FlexContainer>
-
-            <FlexContainer justifyContent="space-between">
-              <label
-                htmlFor="email"
-                className={
-                  isEmailFocused
-                    ? "required-focused contact-form-label-focused"
-                    : "required"
-                }
-              >
-                Email
-              </label>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                // className={
-                //   isEmailValid(email) ? "contact-form-input-checkmark" : ""
-                // }
-                onChange={(e) => setEmail(e.target.value)}
-                onFocus={() => setIsEmailFocused(true)}
-                onBlur={() => setIsEmailFocused(false)}
-              />
-            </FlexContainer>
-            <ValidationError
-              prefix="Email"
-              field="email"
-              errors={state.errors}
+          <FlexContainer justifyContent="space-between">
+            <label
+              htmlFor="name"
+              className={
+                isNameFocused
+                  ? "required-focused contact-form-label-focused "
+                  : "required"
+              }
+            >
+              Namn
+            </label>
+            <input
+              id="name"
+              type="name"
+              name="name"
+              // className={
+              //   name.trim().length > 0 ? "contact-form-input-checkmark" : ""
+              // }
+              onChange={(e) => setName(e.target.value)}
+              onFocus={() => setIsNameFocused(true)}
+              onBlur={() => setIsNameFocused(false)}
+              autoFocus
             />
+          </FlexContainer>
 
-            {/* <FlexContainer justifyContent="space-between">
+          <FlexContainer justifyContent="space-between">
+            <label
+              htmlFor="email"
+              className={
+                isEmailFocused
+                  ? "required-focused contact-form-label-focused"
+                  : "required"
+              }
+            >
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              // className={
+              //   isEmailValid(email) ? "contact-form-input-checkmark" : ""
+              // }
+              onChange={(e) => setEmail(e.target.value)}
+              onFocus={() => setIsEmailFocused(true)}
+              onBlur={() => setIsEmailFocused(false)}
+            />
+          </FlexContainer>
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+
+          {/* <FlexContainer justifyContent="space-between">
               <label
                 htmlFor="phone"
                 className={isCompanyFocused ? "contact-form-label-focused" : ""}
@@ -109,51 +104,50 @@ const ContactForm: FunctionComponent = () => {
               />
             </FlexContainer> */}
 
-            <FlexContainer justifyContent="space-between">
-              <label
-                htmlFor="company"
-                className={isCompanyFocused ? "contact-form-label-focused" : ""}
-              >
-                Företag
-              </label>
-              <input
-                id="company"
-                type="company"
-                name="company"
-                onFocus={() => setIsCompanyFocused(true)}
-                onBlur={() => setIsCompanyFocused(false)}
-              />
-            </FlexContainer>
-
-            <FlexContainer justifyContent="space-between">
-              <label
-                htmlFor="message"
-                className={isMessageFocused ? "contact-form-label-focused" : ""}
-              >
-                Meddelande
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                onFocus={() => setIsMessageFocused(true)}
-                onBlur={() => setIsMessageFocused(false)}
-                rows={3}
-              />
-            </FlexContainer>
-            <ValidationError
-              prefix="Message"
-              field="message"
-              errors={state.errors}
+          <FlexContainer justifyContent="space-between">
+            <label
+              htmlFor="company"
+              className={isCompanyFocused ? "contact-form-label-focused" : ""}
+            >
+              Företag
+            </label>
+            <input
+              id="company"
+              type="company"
+              name="company"
+              onFocus={() => setIsCompanyFocused(true)}
+              onBlur={() => setIsCompanyFocused(false)}
             />
-            <FlexContainer justifyContent="flex-end" margin="0">
-              {state.submitting && (
-                <ClipLoader color={"#1553b7"} loading={true} />
-              )}
+          </FlexContainer>
 
-              <Button disabled={!isFormValid(name, email)} label="SKICKA" />
-            </FlexContainer>
-          </form>
-        </>
+          <FlexContainer justifyContent="space-between">
+            <label
+              htmlFor="message"
+              className={isMessageFocused ? "contact-form-label-focused" : ""}
+            >
+              Meddelande
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              onFocus={() => setIsMessageFocused(true)}
+              onBlur={() => setIsMessageFocused(false)}
+              rows={3}
+            />
+          </FlexContainer>
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <FlexContainer justifyContent="flex-end" margin="0">
+            {state.submitting && (
+              <ClipLoader color={"#1553b7"} loading={true} />
+            )}
+
+            <Button disabled={!isFormValid(name, email)} label="SKICKA" />
+          </FlexContainer>
+        </form>
       )}
     </ContentContainer>
   );

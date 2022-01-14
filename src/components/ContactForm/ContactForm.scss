@@ -27,11 +27,13 @@
   align-items: center;
 
   .contact-header {
-    margin: 0;
+    margin: $spacing-4 auto 0 auto;
+    text-align: center;
+    display: block;
   }
   .contact-p {
     font-weight: $font-weight-light;
-    margin: $spacing-5 0 $spacing-6 0;
+    margin: $spacing-5 $spacing-6 $spacing-7 $spacing-6;
     text-align: center;
   }
 
