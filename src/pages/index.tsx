@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import ApplicationsSection from "src/components/ApplicationsSection";
 import Footer from "src/components/Footer/Footer";
 import LandingSection from "src/components/LandingSection";
@@ -10,10 +9,7 @@ import "./index.scss";
 
 export default function Home() {
   return (
-    <MainView>
-      <Helmet>
-        <title>Skräddarsydda IT-system - Red Queen Solutions</title>
-      </Helmet>
+    <MainView title="Skräddarsydda IT-system">
       <LandingSection />
       <QouteSection />
       <WhyTailorMadeSection />
