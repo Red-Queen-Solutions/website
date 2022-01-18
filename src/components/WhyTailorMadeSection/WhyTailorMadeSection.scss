@@ -1,13 +1,13 @@
 @import "src/styles/variables.scss";
 
+.wtm-leftside-ingress {
+  margin: $spacing-6 0;
+}
 .why-tailor-made-section {
   @include flex-row;
   .wtm-leftside {
     @include flex-column;
-    flex: 1;
-    .wtm-leftside-ingress {
-      margin-bottom: $spacing-6;
-    }
+    flex: 2;
   }
   .wtm-rightside {
     flex: 1;
