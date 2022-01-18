@@ -8,4 +8,5 @@
 }
 .main-container {
   @include flex-column;
+  padding: 20px;
 }

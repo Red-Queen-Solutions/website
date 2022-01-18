@@ -71,6 +71,8 @@ $spacing-16: 768px;
 $max-header-width: 1400px;
 $max-content-width: 1300px;
 $qoute-section-height: $spacing-15;
+$page-padding: $spacing-5;
+$header-height: $spacing-8;
 
 //MIXINS
 @mixin flex-centered {
