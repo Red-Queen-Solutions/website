@@ -6,21 +6,22 @@ import "./QouteSection.scss";
 export const QouteSection = () => {
   return (
     <ContentContainer>
-      <div className="qoute-section-container">
+      <div
+        id="qoute-section-container-root"
+        className="qoute-section-container"
+      >
         <RedStripe />
         <div className="left-side">
           <h3>Rubrik</h3>
           <h2>Huvudrubrik</h2>
           <p>
-            Vi har kapacitet att leverera ert system på så lite som 4-6 veckor,
-            med hjälp av modern teknologi We are able to deliver your digital
-            product in as little as 4-6 weeks employing the lean startup
-            approach and agile software development. We are also experts at
-            scaling existing apps, helping clients to shift from inefficient
-            solutions to stable products that really grow alongside their user
-            base. agile software development. We are also experts at scaling
-            existing apps, helping clients to shift from inefficient solutions
-            to stable products that really grow alongside their user base.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
         <div className="right-side">

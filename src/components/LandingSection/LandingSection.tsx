@@ -6,6 +6,12 @@ import { FlexContainer } from "../FlexContainer/FlexContainer";
 import ButtonLink from "../ButtonLink/ButtonLink";
 
 export const LandingSection = () => {
+  const doScroll = () => {
+    const element = document.getElementById("qoute-section-container-root");
+    if (element) {
+      element.scrollIntoView();
+    }
+  };
   return (
     <ContentContainer className="landing-section-wrapper">
       <h1 className="landing-section-header">Skräddarsydda IT-system</h1>
@@ -22,6 +28,9 @@ export const LandingSection = () => {
               framtiden.
             </p>
             <FlexContainer justifyContent="flex-end">
+              <button className="button-link-inverted" onClick={doScroll}>
+                Läs mer
+              </button>
               <ButtonLink to="/kontakt" text="Boka ett möte" />
             </FlexContainer>
           </div>

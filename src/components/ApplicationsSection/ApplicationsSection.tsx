@@ -17,18 +17,18 @@ export const ApplicationsSection = () => {
             <Card
               icon={SpeedIcon}
               imageClassName="speed-icon"
-              header="Flexibla"
-              text="Användarvänlighet betyder för oss att kombinera kraftfulla funktioner med ett enkelt och intiutivt gränssnitt. Målet är alltid att nya användare kan börja använda systemet utan att utbildas om dess funktionalitet."
+              header="Skalbara"
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
             />
             <Card
               icon={UserFriendlyIcon}
               header="Användarvänliga"
-              text="Användarvänlighet betyder för oss att kombinera kraftfulla funktioner med ett enkelt och intiutivt gränssnitt. Målet är alltid att nya användare kan börja använda systemet utan att utbildas om dess funktionalitet."
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
             />
             <Card
               icon={SecureIcon}
               header="Säkra"
-              text="Användarvänlighet betyder för oss att kombinera kraftfulla funktioner med ett enkelt och intiutivt gränssnitt. Målet är alltid att nya användare kan börja använda systemet utan att utbildas om dess funktionalitet."
+              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
             />
           </div>
         </div>
