@@ -14,15 +14,15 @@ export const LandingSection = () => {
           <div className="left-side-content">
             <p>
               Red Queen Solutions bygger applikationer åt företag som inte nöjer
-              sig med standardlösningar. Oavsett om du vill ersätta ett
+              sig med standardlösningar. Oavsett om ni vill ersätta ett
               befintligt system eller skapa ett helt nytt så tar vi fram en
-              lösning perfekt anpassad efter din verksamhet. <br></br>Genom
-              erfarenhet och modern teknologi jobbar vi snabbt och flexibelt för
+              lösning perfekt anpassad efter er verksamhet. <br></br>Med lång
+              erfarenhet och modern medodik jobbar vi snabbt och flexibelt för
               att säkerställa att ert företags behov uppfylls både nu och i
               framtiden.
             </p>
             <FlexContainer justifyContent="flex-end">
-              <ButtonLink to="/kontakt" text="Kontakta oss" />
+              <ButtonLink to="/kontakt" text="Boka ett möte" />
             </FlexContainer>
           </div>
         </div>
