@@ -1,0 +1,86 @@
+@import "src/styles/variables.scss";
+
+$bar-height: 4px;
+$bar-distance: 8px;
+$animation-duration: 0.3s;
+
+.menu-icon-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 32px;
+  height: 100%;
+  cursor: pointer;
+  .menu-icon {
+    height: $bar-height;
+    width: 100%;
+    background: $color-primary-5;
+    position: absolute;
+    transition: all 0s $animation-duration;
+
+    &::before {
+      height: $bar-height;
+      background: $color-primary-5;
+      top: -$bar-distance;
+      content: "";
+      width: 100%;
+      position: absolute;
+      transition: top $animation-duration $animation-duration,
+        transform $animation-duration 0s;
+    }
+
+    &::after {
+      height: $bar-height;
+      background: $color-primary-5;
+      bottom: -$bar-distance;
+      content: "";
+      width: 100%;
+      position: absolute;
+      transition: bottom $animation-duration $animation-duration,
+        transform $animation-duration 0s;
+    }
+
+    &.open {
+      background: none;
+
+      &::before {
+        top: 0;
+        transform: rotate(-45deg);
+        animation: before-to-close $animation-duration * 2;
+      }
+      &::after {
+        bottom: 0;
+        transform: rotate(45deg);
+        animation: after-to-close $animation-duration * 2;
+      }
+    }
+  }
+}
+
+@keyframes before-to-close {
+  0% {
+    top: -$bar-distance;
+    transform: rotate(0deg);
+  }
+  50% {
+    top: 0px;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes after-to-close {
+  0% {
+    bottom: -$bar-distance;
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: 0px;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}

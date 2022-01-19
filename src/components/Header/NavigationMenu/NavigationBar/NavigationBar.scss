@@ -1,0 +1,24 @@
+@import "src/styles/variables.scss";
+
+$animation-duration: 0.3s;
+
+.navbar {
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  max-height: 0px;
+  transition: all $animation-duration linear;
+  overflow: hidden;
+  padding: 10 0;
+  &.open {
+    max-height: 220px;
+    margin-top: 30px;
+  }
+  .navigation-links-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

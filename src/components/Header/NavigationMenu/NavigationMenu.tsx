@@ -1,27 +1,15 @@
-import { Link } from "gatsby";
-import React, { FunctionComponent } from "react";
-import { FlexContainer } from "src/components/FlexContainer/FlexContainer";
-import "./NavigationMenu.scss";
+import React, { useState } from "react";
+import { MenuIcon } from "./MenuIcon";
+import { NavigationBar } from "./NavigationBar";
 
-const NavigationMenu: FunctionComponent = () => {
+export const NavigationMenu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleIsOpen = () => setIsOpen((prevValue) => !prevValue);
   return (
-    <FlexContainer className="navigation-menu">
-      <Link
-        to="/"
-        className="navigation-menu-item"
-        activeClassName="navigation-menu-item-active"
-      >
-        Hem
-      </Link>
-      <Link
-        to="/kontakt"
-        className="navigation-menu-item"
-        activeClassName="navigation-menu-item-active"
-      >
-        Kontakt
-      </Link>
-    </FlexContainer>
+    <>
+      <MenuIcon isOpen={isOpen} toggleIsOpen={toggleIsOpen}>
+        <NavigationBar isOpen={isOpen} />
+      </MenuIcon>
+    </>
   );
 };
-
-export default NavigationMenu;

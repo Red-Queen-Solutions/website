@@ -1,11 +1,15 @@
 import React from "react";
 import Logo from "static/RedQueenIcon.svg";
-import "./Header.scss";
 import { navigate } from "gatsby";
-import NavigationMenu from "./NavigationMenu/NavigationMenu";
 import { animated } from "react-spring";
+import { useIsBigScreen } from "src/hooks/useIsBigScreen";
+import { FlexContainer } from "src/components/FlexContainer/FlexContainer";
+import { NavigationLinks } from "./NavigationLinks";
+import { NavigationMenu } from "./NavigationMenu";
+import "./Header.scss";
 
 export const Header = () => {
+  const isBigScreen = useIsBigScreen();
   // const [isMenuVisible, setIsMenuVisible] = useState(true);
   // const [y, setY] = useState(window.scrollY);
   // useEffect(() => {
@@ -70,7 +74,13 @@ export const Header = () => {
   return (
     <animated.div className="main-header">
       <img className="rq-logo" src={Logo} onClick={() => navigate("/")} />
-      <NavigationMenu />
+      {isBigScreen ? (
+        <FlexContainer className="navigation-links">
+          <NavigationLinks />
+        </FlexContainer>
+      ) : (
+        <NavigationMenu />
+      )}
     </animated.div>
   );
 };
