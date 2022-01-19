@@ -1,11 +1,22 @@
 @import "src/styles/variables.scss";
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: $spacing-8 0 $spacing-4 0;
-  background-color: $color-secondary-1;
+  position: relative;
+
+  .footer-background {
+    position: absolute;
+    background-color: $color-secondary-1;
+    z-index: -10;
+    width: 100vw;
+    height: 100%;
+    left: -$page-padding;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $spacing-8 0 $spacing-4 0;
+  }
   .footer-row {
     color: $color-blue-1;
     font-size: $font-size-1;

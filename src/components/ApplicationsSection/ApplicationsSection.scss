@@ -1,16 +1,29 @@
 @import "src/styles/variables.scss";
 
 .applications-section-wrapper {
-  width: 100vw;
-  background-color: $color-secondary-1;
+  position: relative;
+  .applications-section-background {
+    position: absolute;
+    width: 100vw;
+    background-color: $color-secondary-1;
+    height: 100%;
+    left: -$page-padding;
+    z-index: -10;
+  }
   .applications-section {
     margin-top: $spacing-7;
     .applications-section-list {
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
     }
-  }
-  .speed-icon {
-    transform: translate(-5px, -1px);
+    @media (min-width: 768px) {
+      .applications-section-list {
+        flex-direction: row;
+      }
+    }
+    .speed-icon {
+      transform: translate(-5px, -1px);
+    }
   }
 }

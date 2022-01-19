@@ -9,6 +9,7 @@ import ContentContainer from "../ContentContainer/ContentContainer";
 export const ApplicationsSection = () => {
   return (
     <div className="applications-section-wrapper">
+      <div className="applications-section-background" />
       <ContentContainer>
         <div className="applications-section">
           <h3>Rubrik</h3>

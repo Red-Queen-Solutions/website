@@ -1,10 +1,14 @@
 @import "src/styles/variables.scss";
 
+@media (min-width: 1260px) {
+  .content-container {
+    max-width: $max-content-width;
+  }
+}
 .content-container {
   margin-left: auto;
   margin-right: auto;
-  width: $max-content-width;
-  max-width: $max-content-width;
+  width: 100%;
   margin-bottom: $spacing-8;
   margin-top: $spacing-8;
 }
