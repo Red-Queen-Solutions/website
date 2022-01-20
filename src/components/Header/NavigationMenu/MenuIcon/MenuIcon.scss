@@ -1,8 +1,7 @@
 @import "src/styles/variables.scss";
 
-$bar-height: 4px;
+$bar-height: 3px;
 $bar-distance: 8px;
-$animation-duration: 0.3s;
 
 .menu-icon-container {
   display: flex;
@@ -14,30 +13,30 @@ $animation-duration: 0.3s;
   .menu-icon {
     height: $bar-height;
     width: 100%;
-    background: $color-primary-5;
+    background: #757474;
     position: absolute;
-    transition: all 0s $animation-duration;
+    transition: all 0s $menu-animation-duration;
 
     &::before {
       height: $bar-height;
-      background: $color-primary-5;
+      background: #757474;
       top: -$bar-distance;
       content: "";
       width: 100%;
       position: absolute;
-      transition: top $animation-duration $animation-duration,
-        transform $animation-duration 0s;
+      transition: top $menu-animation-duration $menu-animation-duration,
+        transform $menu-animation-duration 0s;
     }
 
     &::after {
       height: $bar-height;
-      background: $color-primary-5;
+      background: #757474;
       bottom: -$bar-distance;
       content: "";
       width: 100%;
       position: absolute;
-      transition: bottom $animation-duration $animation-duration,
-        transform $animation-duration 0s;
+      transition: bottom $menu-animation-duration $menu-animation-duration,
+        transform $menu-animation-duration 0s;
     }
 
     &.open {
@@ -46,12 +45,12 @@ $animation-duration: 0.3s;
       &::before {
         top: 0;
         transform: rotate(-45deg);
-        animation: before-to-close $animation-duration * 2;
+        animation: before-to-close $menu-animation-duration * 2;
       }
       &::after {
         bottom: 0;
         transform: rotate(45deg);
-        animation: after-to-close $animation-duration * 2;
+        animation: after-to-close $menu-animation-duration * 2;
       }
     }
   }

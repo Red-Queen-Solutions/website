@@ -1,7 +1,5 @@
 @import "src/styles/variables.scss";
 
-$animation-duration: 0.3s;
-
 .navbar {
   position: absolute;
   top: 50%;
@@ -10,12 +8,14 @@ $animation-duration: 0.3s;
   align-items: flex-end;
   flex-direction: column;
   max-height: 0px;
-  transition: all $animation-duration linear;
+  transition: all $menu-animation-duration ease-in-out;
   overflow: hidden;
   padding: 10 0;
+  opacity: 0;
   &.open {
     max-height: 220px;
     margin-top: 30px;
+    opacity: 1;
   }
   .navigation-links-item {
     margin-right: 0;

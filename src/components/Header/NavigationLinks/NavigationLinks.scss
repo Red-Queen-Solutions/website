@@ -3,8 +3,8 @@
 .navigation-links-item {
   margin-right: $spacing-7;
   text-decoration: none;
-  color: $color-primary-5;
-  font-weight: $font-weight-semibold;
+  color: #757575;
+  font-weight: $font-weight-regular;
   font-size: $font-size-3;
   letter-spacing: 1px;
   box-sizing: border-box;
@@ -13,8 +13,13 @@
 
 .navigation-links-item-active {
   border-bottom: 1px solid $color-primary-5;
+  font-weight: $font-weight-semibold;
 }
 
 .navigation-links-item:hover {
   opacity: 0.7;
+}
+
+.navigation-links-item-active:hover {
+  opacity: 1;
 }
