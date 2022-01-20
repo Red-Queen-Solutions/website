@@ -1,7 +1,7 @@
 @import "src/styles/variables.scss";
 
 .card {
-  width: 250px;
+  width: $spacing-12;
   p {
     font-size: $font-size-3;
     line-height: 1.6875;
