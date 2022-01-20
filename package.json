@@ -5,6 +5,7 @@
   "description": "Red Queen Solutions - Website",
   "main": "index.js",
   "scripts": {
+    "create:component": "scripts/create_component",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

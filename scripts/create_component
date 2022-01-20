@@ -1,0 +1,17 @@
+#!/bin/bash -e
+ROOT_FOLDER=$PWD;
+FILE_NAME=$1;
+if [ -z $FILE_NAME ]; then
+  echo "You have to provide a file name: yarn create:component <FileName>";
+  exit 1;
+fi
+cd ./src/components
+mkdir $FILE_NAME
+cd ./$FILE_NAME
+touch index.ts
+echo "export * from \"./$FILE_NAME\"" > "index.ts"
+touch "$FILE_NAME.tsx"
+echo "import React from \"react\";" >> "$FILE_NAME.tsx"
+echo "import \"$FILE_NAME.scss\";" >> "$FILE_NAME.tsx"
+echo "export const $FILE_NAME = () => { return null;}" >> "$FILE_NAME.tsx"
+touch "$FILE_NAME.scss"
