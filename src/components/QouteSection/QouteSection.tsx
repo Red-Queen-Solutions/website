@@ -21,6 +21,12 @@ export const QouteSection = () => {
             <li>Resursplaneringssystem</li>
             <li>Automatisering av manuella processer</li>
           </ul>
+          <p>
+            Vi gör det genom att bygga webappar, smartphoneappar och APIer. Vi
+            integrerar mot era eventuella befintliga system och hjälper er även
+            med hosting. Teknologier vi gillar att använda innefattar React,
+            React Native, Node, .NET, SQL, MongoDB.
+          </p>
         </div>
         <div className="right-side">
           <div>
