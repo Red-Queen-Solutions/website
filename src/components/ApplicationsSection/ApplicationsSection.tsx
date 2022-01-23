@@ -23,7 +23,7 @@ export const ApplicationsSection = () => {
             <Card
               icon={UserFriendlyIcon}
               header="Användarvänliga"
-              text="Intuitiva, välorganiserade gränssnitt låter användare lära sig använda applikationen så snabbt som möjligt."
+              text="Vi utvecklar snygga, intitutiva gränssnitt som är enkla att förstå och använda."
             />
             <Card
               icon={SecureIcon}
