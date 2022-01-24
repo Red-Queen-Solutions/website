@@ -12,16 +12,20 @@ export const QouteSection = () => {
       >
         <RedStripe />
         <div className="left-side">
-          <h3>Rubrik</h3>
-          <h2>Huvudrubrik</h2>
+          {/* <h3>Rubrik</h3> */}
+          <h2>Vad vi gör</h2>
+          <p>Vi kan bygga de flesta typer av system, till exempel:</p>
+          <ul>
+            <li>Webportaler för anställda eller kunder</li>
+            <li>Logistiksystem</li>
+            <li>Resursplaneringssystem</li>
+            <li>Automatisering av manuella processer</li>
+          </ul>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Vi gör det genom att bygga webappar, smartphoneappar och APIer. Vi
+            integrerar mot era eventuella befintliga system och hjälper er även
+            med hosting. Teknologier vi gillar att använda innefattar React,
+            React Native, Node, .NET, SQL, MongoDB.
           </p>
         </div>
         <div className="right-side">

@@ -12,24 +12,24 @@ export const ApplicationsSection = () => {
       <div className="applications-section-background" />
       <ContentContainer>
         <div className="applications-section">
-          <h3>Rubrik</h3>
-          <h2>Huvudrubrik</h2>
+          <h3>Hur vi utmärker oss</h3>
+          <h2>Systemen vi levererar</h2>
           <div className="applications-section-list">
             <Card
               icon={SpeedIcon}
               imageClassName="speed-icon"
               header="Skalbara"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
+              text="Genom att tänka på skalbarhet redan från början möjliggör vi för att enkelt öka kapaciteten eller addera funktionalitet, oavsett hur era framtida behov ser ut."
             />
             <Card
               icon={UserFriendlyIcon}
               header="Användarvänliga"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
+              text="Vi utvecklar snygga, intitutiva gränssnitt som är enkla att förstå och använda."
             />
             <Card
               icon={SecureIcon}
               header="Säkra"
-              text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru."
+              text="Tack vare erfarenhet från projekt med mycket höga säkerhetskrav ser vi till att era system är säkra."
             />
           </div>
         </div>
