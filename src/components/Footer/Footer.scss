@@ -27,7 +27,7 @@
   .footer {
     position: static;
     background-color: $color-secondary-5;
-    padding: 0 24px;
+    padding: 0 $spacing-5;
 
     .footer-background {
       display: none;

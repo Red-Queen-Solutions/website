@@ -18,7 +18,13 @@
       transform: translate(0px, -200px) scale(1.5);
     }
   }
-  @media (max-width: $max-mobile-width) {
+}
+
+@media (max-width: $max-mobile-width) {
+  .why-tailor-made-section {
+    h2 {
+      margin: $spacing-1 0;
+    }
     .wtm-rightside {
       display: none;
     }

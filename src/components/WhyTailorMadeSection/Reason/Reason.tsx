@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./Reason.scss";
 import Checkmark from "static/Checkmark.svg";
-import { useIsSmallScreen } from "src/hooks/useIsSmallScreen";
+import { useWindowSize } from "src/hooks/useWindowSize";
 
 interface Props {
   header: string;
@@ -9,9 +9,9 @@ interface Props {
 }
 
 export const Reason: FC<Props> = ({ header, text }) => {
-  const isSmallScreen = useIsSmallScreen();
+  const windowSize = useWindowSize();
 
-  if (isSmallScreen) {
+  if (windowSize.width < 768) {
     return (
       <div className="reason">
         <div className="reason-header-mobile">

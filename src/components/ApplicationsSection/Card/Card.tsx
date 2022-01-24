@@ -1,5 +1,5 @@
 import React from "react";
-import { useIsSmallScreen } from "src/hooks/useIsSmallScreen";
+import { useWindowSize } from "src/hooks/useWindowSize";
 import "./Card.scss";
 
 interface Props {
@@ -15,9 +15,9 @@ export const Card: React.FC<Props> = ({
   text,
   imageClassName,
 }) => {
-  const isSmallScreen = useIsSmallScreen();
+  const windowSize = useWindowSize();
 
-  if (isSmallScreen) {
+  if (windowSize.width < 768) {
     return (
       <div className="card">
         <div className="card-header-container">
