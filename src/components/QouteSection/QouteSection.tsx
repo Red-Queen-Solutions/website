@@ -13,7 +13,7 @@ export const QouteSection = () => {
         <RedStripe />
         <div className="left-side">
           {/* <h3>Rubrik</h3> */}
-          <h2>Huvudrubrik</h2>
+          <h2>Vad vi gör</h2>
           <p>Vi kan bygga de flesta typer av system, till exempel:</p>
           <ul>
             <li>Webportaler för anställda eller kunder</li>
