@@ -6,8 +6,21 @@
   margin-right: auto;
   height: 100%;
 }
+@media screen and (max-width: $max-mobile-width) {
+  .page-container {
+    padding: 0;
+    width: auto;
+    margin: none;
+  }
+}
+
 .main-container {
   @include flex-column;
   padding: $page-padding;
   padding-bottom: 0;
+}
+@media screen and (max-width: $max-mobile-width) {
+  .main-container {
+    padding: 0;
+  }
 }

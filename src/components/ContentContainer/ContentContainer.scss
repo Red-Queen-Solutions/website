@@ -12,3 +12,10 @@
   margin-bottom: $spacing-8;
   margin-top: $spacing-8;
 }
+@media screen and (max-width: $max-mobile-width) {
+  .content-container {
+    margin-bottom: $spacing-8;
+    margin-top: $spacing-4;
+    padding: 0 $spacing-5;
+  }
+}

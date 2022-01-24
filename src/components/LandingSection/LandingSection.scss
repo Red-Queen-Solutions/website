@@ -23,9 +23,23 @@
       max-width: 440px;
       transform: translate(0px, -60px);
     }
-    @media (max-width: 1024px) {
+  }
+  @media screen and (max-width: $max-mobile-width) {
+    .landing-section {
+      flex-direction: column-reverse;
+      .left-side {
+        max-width: $spacing-14;
+        p {
+          margin-bottom: $spacing-6;
+        }
+      }
       .right-side {
-        display: none;
+        @include flex-centered;
+      }
+      .landing-screen-image {
+        max-width: 80%;
+        transform: translate(0px, 0px);
+        margin-bottom: $spacing-6;
       }
     }
   }

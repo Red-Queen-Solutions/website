@@ -75,6 +75,8 @@ $page-padding: $spacing-5;
 $header-height: $spacing-8;
 $menu-animation-duration: 0.1s;
 
+$max-mobile-width: 600px;
+
 //MIXINS
 @mixin flex-centered {
   display: flex;

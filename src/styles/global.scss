@@ -81,6 +81,12 @@ h1 {
   line-height: 1;
 }
 
+@media screen and (max-width: $max-mobile-width) {
+  h1 {
+    font-size: $font-size-8;
+  }
+}
+
 h2 {
   font-size: $font-size-7;
   color: #2d1e1e;
@@ -109,6 +115,11 @@ p {
   line-height: 1.65;
   max-width: 48ch;
   margin: 0;
+}
+@media screen and (max-width: $max-mobile-width) {
+  h1 {
+    max-width: 38ch;
+  }
 }
 
 label {

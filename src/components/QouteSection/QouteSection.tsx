@@ -1,9 +1,17 @@
 import React from "react";
+import { useIsSmallScreen } from "src/hooks/useIsSmallScreen";
 import ContentContainer from "../ContentContainer/ContentContainer";
 import RedStripe from "../RedStripe";
 import "./QouteSection.scss";
+import QouteSectionMobile from "./QouteSectionMobile/QouteSectionMobile";
 
 export const QouteSection = () => {
+  const isSmallScreen = useIsSmallScreen();
+
+  if (isSmallScreen) {
+    return <QouteSectionMobile />;
+  }
+
   return (
     <ContentContainer>
       <div

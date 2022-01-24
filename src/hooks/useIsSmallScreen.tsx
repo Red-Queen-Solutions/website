@@ -1,4 +1,4 @@
 import { useMediaQuery } from "react-responsive";
 
-export const useIsBigScreen = () =>
-  useMediaQuery({ query: "(min-width: 768px)" });
+export const useIsSmallScreen = () =>
+  useMediaQuery({ query: "(max-width: 768px)" });
