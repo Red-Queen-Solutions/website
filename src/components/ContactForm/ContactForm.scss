@@ -47,6 +47,12 @@
       margin-bottom: $spacing-5;
     }
 
+    .form-item-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     textarea {
       resize: none;
     }
@@ -63,26 +69,45 @@
     button {
       margin-left: $spacing-1;
     }
+  }
+}
 
-    .contact-form-input-checkmark {
-      background: url("static/checkmark_blue.svg") no-repeat scroll 330px 14px;
-      background-color: #eef4f8;
-      outline: none;
-      // border-color: $color-blue-3;
-      color: $color-blue-3;
-      // font-size: $font-size-;
+@media screen and (max-width: $max-mobile-width) {
+  .contact-form {
+    // width: 500px;
+    h2 {
+      margin-top: 0;
+    }
+    p {
+      margin-bottom: $spacing-5;
+    }
+    padding: $spacing-6;
+    .form-item-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: $spacing-4;
+      // align-items: flex-start;
+      label {
+        padding: 0;
+      }
     }
 
-    .required:after {
-      content: "*";
-      margin-left: 2px;
-      color: $color-grey-10;
+    textarea {
+      resize: none;
     }
 
-    .required-focused:after {
-      content: "*";
-      margin-left: 2px;
+    input,
+    textarea {
+      width: auto;
+    }
+
+    .contact-form-label-focused {
       color: $color-blue-3;
+    }
+
+    button {
+      margin-left: $spacing-1;
     }
   }
 }
