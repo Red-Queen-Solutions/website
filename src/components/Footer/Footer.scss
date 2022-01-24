@@ -22,3 +22,24 @@
     font-size: $font-size-1;
   }
 }
+
+@media screen and (max-width: $max-mobile-width) {
+  .footer {
+    position: static;
+    background-color: $color-secondary-5;
+    padding: 0 24px;
+
+    .footer-background {
+      display: none;
+    }
+    .footer-content {
+      align-items: flex-start;
+      padding: $spacing-6 0;
+    }
+    .footer-row {
+      max-width: 34ch;
+      text-align: start;
+      color: white;
+    }
+  }
+}

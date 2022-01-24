@@ -18,8 +18,11 @@
 
 @media screen and (max-width: $max-mobile-width) {
   .main-header {
-    padding: 0;
+    padding: $page-padding;
     max-width: none;
     margin: none;
+  }
+  .rq-logo {
+    transform: translate(-10px, 0);
   }
 }

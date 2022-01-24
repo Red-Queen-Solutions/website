@@ -28,3 +28,12 @@
     }
   }
 }
+
+@media (max-width: $max-mobile-width) {
+  .applications-section-wrapper {
+    background-color: $color-secondary-1;
+  }
+  .applications-section-background {
+    display: none;
+  }
+}
