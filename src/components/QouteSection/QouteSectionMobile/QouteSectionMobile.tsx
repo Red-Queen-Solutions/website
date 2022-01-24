@@ -4,7 +4,10 @@ import "./QouteSectionMobile.scss";
 
 const QouteSectionMobile = () => {
   return (
-    <ContentContainer className="qoute-container-mobile">
+    <ContentContainer
+      id="qoute-section-container-root"
+      className="qoute-container-mobile"
+    >
       <div className="left-side">
         {/* <h3>Rubrik</h3> */}
         <h2>Vad vi gör</h2>

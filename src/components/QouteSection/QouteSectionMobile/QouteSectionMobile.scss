@@ -1,7 +1,7 @@
 @import "src/styles/variables.scss";
 
 .qoute-container-mobile {
-  padding: $spacing-5;
+  padding: $spacing-5 $spacing-5 $spacing-8 $spacing-5;
   margin-bottom: $spacing-6;
   background-image: linear-gradient(
     160deg,

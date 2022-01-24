@@ -3,13 +3,18 @@ import "./ContentContainer.scss";
 interface ContentContainerProps {
   children: React.ReactNode;
   className?: string;
+  id?: string;
 }
 
 const ContentContainer: FunctionComponent<ContentContainerProps> = ({
   children,
   className = "",
+  id = "",
 }) => (
-  <div className={`content-container${!className ? "" : ` ${className}`}`}>
+  <div
+    id={id}
+    className={`content-container${!className ? "" : ` ${className}`}`}
+  >
     {children}
   </div>
 );
