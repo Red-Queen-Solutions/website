@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Red-Queen-Solutions/website#readme",
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.2",
     "@fontsource/mulish": "^4.5.1",
     "@fontsource/poppins": "^4.4.5",
     "@formspree/react": "^2.2.4",
