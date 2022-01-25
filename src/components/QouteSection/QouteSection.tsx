@@ -29,10 +29,10 @@ export const QouteSection = () => {
             <li>Automatisering av manuella processer</li>
           </ul>
           <p>
-            Vi gör det genom att bygga webappar, smartphoneappar och APIer. Vi
+            De kan bestå av både webappar, smartphoneappar och APIer. Vi
             integrerar mot era eventuella befintliga system och hjälper er även
-            med hosting. Teknologier vi gillar att använda innefattar React,
-            React Native, Node, .NET, SQL, MongoDB.
+            med hosting. Vi använder moderna språk och ramverk som till exempel
+            React, React Native, Node, .NET, SQL och Google Cloud Platform.
           </p>
         </div>
         <div className="right-side">
