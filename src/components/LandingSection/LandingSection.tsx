@@ -1,20 +1,13 @@
 import React from "react";
-import smoothscroll from "smoothscroll-polyfill";
+import scrollTo from "gatsby-plugin-smoothscroll";
 import { StaticImage } from "gatsby-plugin-image";
 import "./LandingSection.scss";
 import ContentContainer from "../ContentContainer/ContentContainer";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
 import ButtonLink from "../ButtonLink/ButtonLink";
 // For smooth scroll to work in Safari
-smoothscroll.polyfill();
 
 export const LandingSection = () => {
-  const doScroll = () => {
-    const element = document.getElementById("qoute-section-container-root");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
   return (
     <ContentContainer className="landing-section-wrapper">
       <h1 className="landing-section-header">Skräddarsydda IT-system</h1>
@@ -29,7 +22,10 @@ export const LandingSection = () => {
             att ert företags behov uppfylls både nu och i framtiden.
           </p>
           <FlexContainer justifyContent="flex-end">
-            <button className="button-link-inverted" onClick={doScroll}>
+            <button
+              className="button-link-inverted"
+              onClick={() => scrollTo("#qoute-section-container-root")}
+            >
               Läs mer
             </button>
             <ButtonLink to="/kontakt" text="Boka ett möte" />

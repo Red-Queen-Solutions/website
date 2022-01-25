@@ -2,14 +2,16 @@ import React from "react";
 import Logo from "static/RedQueenIcon.svg";
 import { navigate } from "gatsby";
 import { animated } from "react-spring";
-import { useIsBigScreen } from "src/hooks/useIsBigScreen";
 import { FlexContainer } from "src/components/FlexContainer/FlexContainer";
 import { NavigationLinks } from "./NavigationLinks";
 import { NavigationMenu } from "./NavigationMenu";
 import "./Header.scss";
+import { useWindowSize } from "src/hooks/useWindowSize";
 
 export const Header = () => {
-  const isBigScreen = useIsBigScreen();
+  const windowSize = useWindowSize();
+
+  const isBigScreen = windowSize.width > 1260;
   // const [isMenuVisible, setIsMenuVisible] = useState(true);
   // const [y, setY] = useState(window.scrollY);
   // useEffect(() => {
