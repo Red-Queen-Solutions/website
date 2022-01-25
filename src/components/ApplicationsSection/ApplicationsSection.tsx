@@ -12,7 +12,7 @@ export const ApplicationsSection = () => {
       <div className="applications-section-background" />
       <ContentContainer>
         <div className="applications-section">
-          <h3>Hur vi utmärker oss</h3>
+          {/* <h3>Hur vi utmärker oss</h3> */}
           <h2>Systemen vi levererar</h2>
           <div className="applications-section-list">
             <Card

@@ -12,7 +12,7 @@ body,
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  caret-color: transparent;
+  caret-color: $color-blue-3;
 }
 #gatsby-focus-wrapper {
   display: flex;
@@ -49,6 +49,7 @@ svg {
 a {
   text-decoration: none;
   text-shadow: none;
+  color: $color-blue-2;
 
   &:hover {
     text-decoration: none;
@@ -89,11 +90,18 @@ h1 {
 
 h2 {
   font-size: $font-size-7;
-  color: #2d1e1e;
+  // color: #2d1e1e;
+  color: $color-blue-2;
   font-weight: $font-weight-bold;
   line-height: 1.17;
   max-width: 20ch;
   margin: $spacing-5 0;
+}
+
+@media screen and (max-width: $max-mobile-width) {
+  h2 {
+    font-size: $font-size-6;
+  }
 }
 
 h3 {
@@ -101,7 +109,6 @@ h3 {
   font-weight: $font-weight-bold;
   color: $color-blue-2;
   margin-bottom: 0;
-  letter-spacing: 1px;
 }
 
 h4 {
@@ -138,7 +145,6 @@ input:focus,
 textarea:focus {
   border: 1px solid $color-blue-2;
   box-shadow: 0px 0px 4px $color-blue-2;
-  outline: none;
 }
 
 .button,

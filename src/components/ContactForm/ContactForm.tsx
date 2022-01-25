@@ -20,7 +20,7 @@ const ContactForm: FunctionComponent = () => {
   });
   const windowSize = useWindowSize();
 
-  if (state.succeeded || true) {
+  if (state.succeeded) {
     return <SuccessScreen email={"oasdad@test.se"} />;
   }
 

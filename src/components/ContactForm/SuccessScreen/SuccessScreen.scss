@@ -1,8 +1,13 @@
 @import "src/styles/variables.scss";
+.success-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .success-screen-header {
   color: $color-grey-6;
   margin: $spacing-4 0 $spacing-3 0;
-  letter-spacing: 1px;
+  text-align: center;
 }
 
 .success-screen-p {

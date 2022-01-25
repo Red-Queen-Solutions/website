@@ -60,10 +60,7 @@
     input,
     textarea {
       width: 340px;
-    }
-
-    .contact-form-label-focused {
-      color: $color-blue-3;
+      outline: none;
     }
 
     button {
@@ -100,10 +97,7 @@
     input,
     textarea {
       width: auto;
-    }
-
-    .contact-form-label-focused {
-      color: $color-blue-3;
+      outline: rgba(0, 0, 0, 0.25);
     }
 
     button {

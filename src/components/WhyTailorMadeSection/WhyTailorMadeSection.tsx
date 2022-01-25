@@ -7,7 +7,7 @@ import ContentContainer from "../ContentContainer/ContentContainer";
 export const WhyTailorMadeSection = () => {
   return (
     <ContentContainer>
-      <h3>Varför skräddarsytt?</h3>
+      {/* <h3>Varför skräddarsytt?</h3> */}
       <h2>Hur företag tjänar på egenutvecklade system</h2>
       <p className="wtm-leftside-ingress">
         Att köpa in ett system som är specifikt utvecklat efter just er

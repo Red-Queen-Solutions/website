@@ -1,15 +1,18 @@
 import React from "react";
+import smoothscroll from "smoothscroll-polyfill";
 import { StaticImage } from "gatsby-plugin-image";
 import "./LandingSection.scss";
 import ContentContainer from "../ContentContainer/ContentContainer";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
 import ButtonLink from "../ButtonLink/ButtonLink";
+// For smooth scroll to work in Safari
+smoothscroll.polyfill();
 
 export const LandingSection = () => {
   const doScroll = () => {
     const element = document.getElementById("qoute-section-container-root");
     if (element) {
-      element.scrollIntoView();
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (
