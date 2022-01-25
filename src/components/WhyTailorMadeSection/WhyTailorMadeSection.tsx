@@ -16,7 +16,7 @@ export const WhyTailorMadeSection = () => {
         <div className="wtm-leftside">
           <Reason
             header="Ökad produktivitet"
-            text="Genom att fokusera på nödvändiga funktioner så säkerställer man att systemet är anpassat efter hur era anställda jobbar. Med ett intuitivt användargränssnitt och förenklad datainmatning slipper man förvirring och gissande. Genom att strömlinjeforma och automatisera kan tiden det tar att genomföra en komplext arbetsuppgift minskas ordentligt."
+            text="Genom att fokusera på nödvändiga funktioner så säkerställer man att systemet är anpassat efter hur era anställda jobbar. Med ett intuitivt användargränssnitt och förenklad datainmatning slipper man förvirring och gissande. Genom att strömlinjeforma och automatisera kan tiden det tar att genomföra en komplex arbetsuppgift minskas ordentligt."
           />
           <Reason
             header="Flexibilitet"

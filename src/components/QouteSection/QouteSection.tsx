@@ -38,9 +38,9 @@ export const QouteSection = () => {
         <div className="right-side">
           <div>
             <p>
-              "Vårt samarbete med RQS fungerade väldigt smidigt och effektivt.
-              De kom snabbt in i problemställningen och tog fram en
-              högkvalitativ produkt med ett intuitivt och smart UI."
+              "Vårt samarbete med Red Queen Solutions fungerade väldigt smidigt
+              och effektivt. De kom snabbt in i problemställningen och tog fram
+              en högkvalitativ produkt med ett intuitivt och smart UI."
             </p>
             <p>- Kockumation</p>
           </div>
