@@ -11,7 +11,7 @@
     z-index: -10;
   }
   .applications-section {
-    margin-top: $spacing-7;
+    margin-top: $spacing-8;
     .applications-section-list {
       max-width: 1200px;
       display: flex;
@@ -32,6 +32,7 @@
 @media (max-width: $max-mobile-width) {
   .applications-section-wrapper {
     background-color: $color-secondary-1;
+    margin-bottom: $spacing-8;
   }
   .applications-section-background {
     display: none;
