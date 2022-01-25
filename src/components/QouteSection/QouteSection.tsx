@@ -38,10 +38,11 @@ export const QouteSection = () => {
         <div className="right-side">
           <div>
             <p>
-              "Red Queen Solutions lorem ipsum dolor sit amet, coneget mollis
-              neque blandit posuere. Nulla interdum placerat."
+              "Vårt samarbete med RQS fungerade väldigt smidigt och effektivt.
+              De kom snabbt in i problemställningen och tog fram en
+              högkvalitativ produkt med ett intuitivt och smart UI."
             </p>
-            <p>- Company Inc</p>
+            <p>- Kockumation</p>
           </div>
         </div>
       </div>
