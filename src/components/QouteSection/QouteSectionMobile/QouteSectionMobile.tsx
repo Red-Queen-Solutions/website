@@ -10,7 +10,7 @@ const QouteSectionMobile = () => {
     >
       <div className="left-side">
         {/* <h3>Rubrik</h3> */}
-        <h2>Vad vi gör</h2>
+        <h2>Vad vi gör </h2>
         <p>Vi kan bygga de flesta typer av system, till exempel:</p>
         <ul>
           <li>Webportaler för anställda eller kunder</li>
@@ -19,10 +19,10 @@ const QouteSectionMobile = () => {
           <li>Automatisering av manuella processer</li>
         </ul>
         <p>
-          Vi gör det genom att bygga webappar, smartphoneappar och APIer. Vi
+          De kan bestå av både webappar, smartphoneappar och APIer. Vi
           integrerar mot era eventuella befintliga system och hjälper er även
-          med hosting. Teknologier vi gillar att använda innefattar React, React
-          Native, Node, .NET, SQL, MongoDB.
+          med hosting. Vi använder moderna språk och ramverk som till exempel
+          React, React Native, Node, .NET, SQL och Google Cloud Platform.
         </p>
       </div>
       {/* <div className="right-side">
