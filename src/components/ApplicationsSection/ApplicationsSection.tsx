@@ -31,7 +31,7 @@ export const ApplicationsSection = () => {
               icon={SecureIcon}
               imageClassName="secure-icon"
               header="Säkra"
-              text="Tack vare erfarenhet från projekt med mycket höga säkerhetskrav kan vi säkerställa att ingen obehörig får tillgång till er data."
+              text="Tack vare vår erfarenhet från projekt med mycket höga säkerhetskrav kan vi se till att era system är säkra."
             />
           </div>
         </div>
