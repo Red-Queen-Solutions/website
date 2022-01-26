@@ -10,9 +10,7 @@ import ButtonLink from "../ButtonLink/ButtonLink";
 export const LandingSection = () => {
   return (
     <ContentContainer className="landing-section-wrapper">
-      <h1 className="landing-section-header safari_only">
-        Skräddarsydda IT-system
-      </h1>
+      <h1 className="landing-section-header">Skräddarsydda IT-system</h1>
       <div className="landing-section">
         <div className="left-side">
           <p>

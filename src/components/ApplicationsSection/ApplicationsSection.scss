@@ -39,6 +39,11 @@
   .applications-section-wrapper {
     background-color: $color-secondary-1;
     margin-bottom: $spacing-8;
+    .applications-section {
+      h2 {
+        margin-bottom: 0;
+      }
+    }
   }
   .applications-section-background {
     display: none;
