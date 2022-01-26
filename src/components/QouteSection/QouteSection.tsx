@@ -7,7 +7,7 @@ import QouteSectionMobile from "./QouteSectionMobile/QouteSectionMobile";
 
 export const QouteSection = () => {
   const windowSize = useWindowSize();
-  if (windowSize.width < 768) {
+  if (windowSize.width < 769) {
     return <QouteSectionMobile />;
   }
 

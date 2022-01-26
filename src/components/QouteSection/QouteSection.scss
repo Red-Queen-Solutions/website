@@ -38,3 +38,11 @@
     }
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: $max-tablet-width) {
+  .qoute-section-container {
+    .right-side {
+      transform: translate(0px, 10px) scale(0.8);
+    }
+  }
+}

@@ -17,7 +17,7 @@ export const Card: React.FC<Props> = ({
 }) => {
   const windowSize = useWindowSize();
 
-  if (windowSize.width < 768) {
+  if (windowSize.width < 1000) {
     return (
       <div className="card">
         <div className="card-header-container">

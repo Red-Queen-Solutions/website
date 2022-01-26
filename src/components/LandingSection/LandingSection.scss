@@ -44,3 +44,17 @@
     }
   }
 }
+
+@media screen and (min-width: 769px) and (max-width: $max-tablet-width) {
+  .landing-section {
+    .left-side {
+      flex: 2;
+    }
+    .right-side {
+      flex: 1;
+    }
+    .landing-screen-image {
+      max-width: 80%;
+    }
+  }
+}

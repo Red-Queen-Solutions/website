@@ -20,3 +20,9 @@
     padding: 0 $spacing-5;
   }
 }
+
+@media screen and (min-width: 500px) and (max-width: $max-tablet-width) {
+  .content-container {
+    padding: 0 $spacing-6;
+  }
+}

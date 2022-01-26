@@ -16,11 +16,12 @@
   }
 }
 
-@media screen and (max-width: $max-mobile-width) {
+@media screen and (max-width: 999px) {
   .card {
     display: flex;
     flex-direction: column;
     margin-top: $spacing-7;
+    width: 80%;
 
     .card-header-container {
       display: flex;

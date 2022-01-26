@@ -20,13 +20,23 @@
   }
 }
 
-@media (max-width: $max-mobile-width) {
+@media (max-width: 999px) {
   .why-tailor-made-section {
     h2 {
       margin: $spacing-1 0;
     }
     .wtm-rightside {
       display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: $max-tablet-width) {
+  .why-tailor-made-section {
+    .wtm-rightside {
+      .wtms-image {
+        transform: translate(0px, -200px) scale(1.3);
+      }
     }
   }
 }
