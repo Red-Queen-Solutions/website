@@ -18,7 +18,7 @@ export const LandingSection = () => {
             sig med standardlösningar. Oavsett om ni vill ersätta ett befintligt
             system eller skapa ett helt nytt så tar vi fram en lösning perfekt
             anpassad efter er verksamhet. <br></br>Med lång erfarenhet och
-            modern medodik jobbar vi snabbt och flexibelt för att säkerställa
+            modern metodik jobbar vi snabbt och flexibelt för att säkerställa
             att ert företags behov uppfylls både nu och i framtiden.
           </p>
           <FlexContainer justifyContent="flex-end">

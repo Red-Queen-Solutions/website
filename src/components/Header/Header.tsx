@@ -11,7 +11,7 @@ import { useWindowSize } from "src/hooks/useWindowSize";
 export const Header = () => {
   const windowSize = useWindowSize();
 
-  const isBigScreen = windowSize.width > 1260;
+  const isBigScreen = windowSize.width > 600;
   // const [isMenuVisible, setIsMenuVisible] = useState(true);
   // const [y, setY] = useState(window.scrollY);
   // useEffect(() => {
