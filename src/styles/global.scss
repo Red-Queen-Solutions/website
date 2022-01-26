@@ -1,5 +1,41 @@
 @import "src/styles/variables.scss";
 
+@font-face {
+  font-family: "Mulish Bold";
+  src: local("Mulish Bold"),
+    url("static/fonts/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish Regular";
+  src: local("Mulish Regular"),
+    url("static/fonts/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish SemiBold";
+  src: local("Mulish SemiBold"),
+    url("static/fonts/Mulish-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: local("Montserrat Regular"),
+    url("static/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: local("Montserrat SemiBold"),
+    url("static/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"),
+    url("static/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
 html,
 body,
 #___gatsby,
@@ -29,7 +65,7 @@ html {
 body {
   margin: 0;
   background-color: "white";
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish Regular", sans-serif;
   font-size: $font-size-4;
   line-height: 1.75;
   color: $color-grey-7;
@@ -78,7 +114,7 @@ h6 {
 h1 {
   font-size: $font-size-9;
   color: $color-grey-9;
-  font-weight: $font-weight-bold;
+  font-family: "Montserrat SemiBold";
   line-height: 1;
 }
 
@@ -92,7 +128,7 @@ h2 {
   font-size: $font-size-7;
   // color: #2d1e1e;
   color: $color-blue-2;
-  font-weight: $font-weight-bold;
+  font-family: "Montserrat SemiBold";
   line-height: 1.17;
   max-width: 20ch;
   margin: $spacing-5 0;
@@ -106,13 +142,14 @@ h2 {
 
 h3 {
   font-size: $font-size-4;
-  font-weight: $font-weight-bold;
+  font-family: "Montserrat Bold";
   color: $color-blue-2;
   margin-bottom: 0;
 }
 
 h4 {
-  color: black;
+  font-family: "Montserrat SemiBold";
+  color: $color-grey-10;
 }
 
 p {
@@ -157,13 +194,13 @@ textarea:focus {
   border: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Montserrat", sans-serif;
-  // font-weight: 900;
-}
+// h1,
+// h2,
+// h3,
+// h4 {
+//   font-family: "Montserrat", sans-serif;
+//   // font-weight: 900;
+// }
 
 // _::-webkit-full-page-media,
 // _:future,

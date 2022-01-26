@@ -13,14 +13,14 @@ export const MainView: React.FC<Props> = ({ children, title }) => {
     <div className="page-container">
       <Helmet>
         <title>{`${title} - Red Queen Solutions`}</title>
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css?family=Mulish"
           rel="stylesheet"
         />
         <link
           href="https://fonts.googleapis.com/css?family=Montserrat"
           rel="stylesheet"
-        />
+        /> */}
       </Helmet>
       <Header />
       <div className="main-container">{children}</div>
