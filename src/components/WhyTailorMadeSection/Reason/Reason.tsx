@@ -11,7 +11,7 @@ interface Props {
 export const Reason: FC<Props> = ({ header, text }) => {
   const windowSize = useWindowSize();
 
-  if (windowSize.width < 768) {
+  if (windowSize.width < 1000 || true) {
     return (
       <div className="reason">
         <div className="reason-header-mobile">

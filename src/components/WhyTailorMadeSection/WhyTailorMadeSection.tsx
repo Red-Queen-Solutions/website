@@ -6,7 +6,7 @@ import ContentContainer from "../ContentContainer/ContentContainer";
 
 export const WhyTailorMadeSection = () => {
   return (
-    <ContentContainer>
+    <ContentContainer className="wtm-content-container">
       <h2>Fördelar med skräddarsydda system</h2>
       <p className="wtm-leftside-ingress">
         Att köpa in ett system som är specifikt utvecklat efter just er

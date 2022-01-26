@@ -1,29 +1,29 @@
 @import "src/styles/variables.scss";
 
-.reason {
-  display: flex;
-  margin-bottom: $spacing-7;
-  .reason-left {
-    .reason-checkmark {
-      // height: $font-size-5;
-      height: $font-size-7;
-      width: auto;
-      margin-right: $spacing-1;
-      // transform: translate(0px, 3px) scale(1.5);
-      transform: translate(0px, 0px);
-    }
-  }
-  .reason-right {
-    flex: 1;
-    h4 {
-      margin: 0;
-    }
-    p {
-      max-width: 48ch;
-    }
-  }
-}
-@media screen and (max-width: $max-mobile-width) {
+// .reason {
+//   display: flex;
+//   margin-bottom: $spacing-7;
+//   .reason-left {
+//     .reason-checkmark {
+//       // height: $font-size-5;
+//       height: $font-size-7;
+//       width: auto;
+//       margin-right: $spacing-1;
+//       // transform: translate(0px, 3px) scale(1.5);
+//       transform: translate(0px, 0px);
+//     }
+//   }
+//   .reason-right {
+//     flex: 1;
+//     h4 {
+//       margin: 0;
+//     }
+//     p {
+//       max-width: 48ch;
+//     }
+//   }
+// }
+@media screen and (max-width: 9999px) {
   .reason {
     display: flex;
     flex-direction: column;
