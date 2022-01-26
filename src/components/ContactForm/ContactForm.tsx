@@ -21,7 +21,7 @@ const ContactForm: FunctionComponent = () => {
   const windowSize = useWindowSize();
 
   if (state.succeeded) {
-    return <SuccessScreen email={"oasdad@test.se"} />;
+    return <SuccessScreen email={emailRef.current} />;
   }
 
   if (windowSize.width < 769) {
