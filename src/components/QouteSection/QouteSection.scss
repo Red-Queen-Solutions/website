@@ -20,9 +20,8 @@
     }
   }
   .right-side {
-    flex: 1;
-    @include flex-column;
-    align-items: center;
+    // flex: 1;
+    display: flex;
     z-index: 10;
     transform: translate(0px, 10px);
 
@@ -34,7 +33,7 @@
       color: white;
       border-left: 1px solid white;
       padding-left: $spacing-5;
-      max-width: 500px;
+      max-width: 400px;
     }
   }
 }
@@ -42,7 +41,7 @@
 @media screen and (min-width: 769px) and (max-width: $max-tablet-width) {
   .qoute-section-container {
     .right-side {
-      transform: translate(0px, 10px) scale(0.8);
+      transform: translate(0px, 10px) scale(0.7);
     }
   }
 }
