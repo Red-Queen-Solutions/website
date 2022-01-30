@@ -14,6 +14,12 @@
   .navigation-links {
     margin: 0 50px 0 0;
   }
+
+  @media screen and (max-width: 600px) {
+    .navigation-links {
+      display: none !important;
+    }
+  }
 }
 
 @media screen and (max-width: $max-mobile-width) {

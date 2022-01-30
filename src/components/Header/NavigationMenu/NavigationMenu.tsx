@@ -6,10 +6,8 @@ export const NavigationMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleIsOpen = () => setIsOpen((prevValue) => !prevValue);
   return (
-    <>
-      <MenuIcon isOpen={isOpen} toggleIsOpen={toggleIsOpen}>
-        <NavigationBar isOpen={isOpen} />
-      </MenuIcon>
-    </>
+    <MenuIcon isOpen={isOpen} toggleIsOpen={toggleIsOpen}>
+      <NavigationBar isOpen={isOpen} />
+    </MenuIcon>
   );
 };
