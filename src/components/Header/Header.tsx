@@ -76,12 +76,12 @@ export const Header = () => {
   return (
     <animated.div className="main-header">
       <img className="rq-logo" src={Logo} onClick={() => navigate("/")} />
-      {isBigScreen ? (
+      {!isBigScreen ? (
+        <NavigationMenu />
+      ) : (
         <FlexContainer className="navigation-links">
           <NavigationLinks />
         </FlexContainer>
-      ) : (
-        <NavigationMenu />
       )}
     </animated.div>
   );
