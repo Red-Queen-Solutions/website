@@ -13,10 +13,9 @@ const QouteSectionMobile = () => {
         <h2>Vad vi gör </h2>
         <p>Vi kan bygga flera typer av system, till exempel:</p>
         <ul>
-          <li>Webportaler för anställda eller kunder</li>
-          <li>Logistiksystem</li>
-          <li>Resursplaneringssystem</li>
-          <li>Automatisering av manuella processer</li>
+            <li>Webportaler för anställda eller kunder</li>
+            <li>Planeringssystem</li>
+            <li>Digitalisering av manuella processer</li>
         </ul>
         <p>
           De kan bestå av både webappar, smartphoneappar och APIer. Vi

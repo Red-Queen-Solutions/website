@@ -20,7 +20,7 @@ export const WhyTailorMadeSection = () => {
           />
           <Reason
             header="Flexibilitet"
-            text="För att behålla och förbättra konkurrenskraften över tid krävs det att man kan anpassa sig efter förändrade förutsättningar. Skräddarsydda system är enkla att förändra - nya processer och teknologier kan bli integrerade i er befintliga mjukvara när marknadstrender förändras, så att ni fortsätter ligga i framkant."
+            text="För att behålla och förbättra konkurrenskraften över tid krävs det att man kan anpassa sig efter förändrade förutsättningar. Skräddarsydda system är enkla att förändra - nya processer och teknologier kan integreras i er befintliga mjukvara när marknadstrender förändras, så att ni fortsätter ligga i framkant."
           />
           <Reason
             header="Konkurrensfördel"
