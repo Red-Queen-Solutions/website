@@ -25,7 +25,7 @@ export const QouteSection = () => {
           <ul>
             <li>Webportaler för anställda eller kunder</li>
             <li>Planeringssystem</li>
-            <li>Digitalisering av manuella processer</li>
+            <li>Digitalisering av analoga processer</li>
           </ul>
           <p>
             De kan bestå av både webappar, smartphoneappar och APIer. Vi
