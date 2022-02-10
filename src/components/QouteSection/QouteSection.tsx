@@ -24,7 +24,7 @@ export const QouteSection = () => {
           <p>Vi kan bygga flera typer av system, till exempel:</p>
           <ul>
             <li>Webportaler för anställda eller kunder</li>
-            <li>Planeringssystem</li>
+            <li>E-handelsystem</li>
             <li>Digitalisering av analoga processer</li>
           </ul>
           <p>
